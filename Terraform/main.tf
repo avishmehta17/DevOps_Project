@@ -21,6 +21,6 @@ resource "aws_instance" "dev_machine" {
 
   tags = {
     Environment = "dev"
-    Name        = "${var.name}-server"
+    Name        = "MyInstance"
   }
 }

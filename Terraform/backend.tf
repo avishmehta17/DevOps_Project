@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "meri-bucket-hainji"
+    bucket = "my-bucket-aws-s3-yes"
     key = "server_name/statefile"
     region = "ap-southeast-2"
   }
